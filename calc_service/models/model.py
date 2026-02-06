@@ -19,3 +19,7 @@ class EvalResponse(SQLModel):
 
 class RecallResponse(SQLModel):
     expr: List[str]
+
+
+class UpdateGitTest():
+    print("Hello")
